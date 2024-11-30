@@ -1,4 +1,4 @@
-  The Simple Central-Processor-Unit (CPU) designed consists of 2 latches, 4 seven segment displays, an arithmetic logic unit, a FSM, and a 4x16 decoder. 
+  The Simple General-Purpose Processor designed consists of 2 latches, 4 seven segment displays, an arithmetic logic unit, a FSM, and a 4x16 decoder. 
 Each latch processes an 8-bit input (A and B) which represents the last four digits of our student number. 
 If the reset is not on, the 8-bit input is sent to the ALU through a positive edge clock input. The FSM is a moore machine that determines and switches to the next depending on the previous state.
 There are a total of 9 states that switch through chronologically when data_in is on and the clock has a positive edge.
